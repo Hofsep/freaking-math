@@ -1,0 +1,19 @@
+{
+  "name": "freaking-math",
+  "version": "1.0.0",
+  "description": "webversion of freaking math game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hofsep/freaking-math.git"
+  },
+  "author": "Hofsep Zakharyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hofsep/freaking-math/issues"
+  },
+  "homepage": "https://github.com/Hofsep/freaking-math#readme"
+}
