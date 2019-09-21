@@ -1,0 +1,150 @@
+#container {
+    font-family: 'Montserrat', sans-serif;
+    width: 300px;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+
+
+#display {
+    position: relative;
+    padding-top: 60px;
+}
+#score-display {
+    text-align: right;
+    font-size: 30px;
+}
+#mute { 
+    float:left;
+    clear:left;
+    width: 30px;
+    height: 30px;
+}
+#numbers {
+    font-size: 75px;
+    font-weight: bold;
+}
+#result {
+    font-size: 65px;
+    font-weight: bold;
+}
+/* Circle image */
+#check-answer {
+    width:80px;
+    height: auto;
+    padding-top: 20px;
+    position: absolute;
+    right: 10px;
+    top: 275px;
+}
+
+/* >>>>> GAME OVER */
+#game-over-display {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 400px;
+}
+.off-screen {
+    position: absolute;
+    top: -1000px!important;
+}
+/* Current score and highschore */
+#score {
+    height: 170px;
+    background-color: #4e4e4e;
+    border-radius: 15px;
+}
+.game-over-text {
+    font-weight: bold;
+    font-size: 25px;
+    color: #aaabab;
+}
+.game-over-numbers {
+    font-weight: bold;
+    font-size: 40px;
+}
+/* play, share, scores buttons */
+#buttonDiv {
+    position: absolute;
+    top: 120px;
+    right: 25px;
+}
+.btns {
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    margin-top: 60px;
+    background-size: cover;
+}
+/* GAME OVER <<<<< */
+
+
+/* >>>> TIMER */
+#timer {
+    height: 10px;
+    background-color: white;
+    width: 100%;
+}
+
+/* (change the goleft to match the seconds in the JS file) */
+#timer.active {
+    -webkit-animation: goleft 1.5s forwards;
+    animation: goleft 1.5s forwards;
+}
+
+@-webkit-keyframes goleft {
+    from {width: 280px;}
+    to {width: 0;}
+}
+
+@keyframes goleft {
+    from {width: 280px;}
+    to {width: 0;}
+}
+/* TIMER <<<< */
+
+
+
+/* RIGHT AND WRONG BUTTONS */
+.btn {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    background-size: cover;
+}
+
+
+/* ADDING THE RESOURCES */
+#correct {
+    background-image: url('resources/correct.png');
+}
+#correct:hover {
+    background-image: url('resources/correct_hover.png');
+}
+#incorrect {
+    background-image: url('resources/incorrect.png');
+}
+#incorrect:hover {
+    background-image: url('resources/incorrect_hover.png');
+}
+#play-again {
+    background-image: url('resources/play-again.png');
+}
+#play-again:hover {
+    background-image: url('resources/play-again_hover.png');
+}
+#share {
+    background-image: url('resources/share.png');
+}
+#share:hover {
+    background-image: url('resources/share_hover.png');
+}
+#highscore {
+    background-image: url('resources/highscore.png');
+}
+#highscore:hover {
+    background-image: url('resources/highscore_hover.png');
+}

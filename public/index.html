@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Freaking Math</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+	</head>
+	<body id="container">
+		<div id="display">
+
+			<!-- TIMER -->
+			<div id="timer"></div>
+			
+			<!-- DISPLAY -->
+			<img src="resources/mute.png" id="mute">
+			<div id="score-display"></div>
+			<h1 id="numbers"></h1>
+			<h1 id="result"></h1> 
+			<img src="" id="check-answer"/>
+			
+			<!-- BUTTONS -->
+			<button id="correct" class="btn"> </button>
+			<button id="incorrect" class="btn"> </button>
+			
+			<!-- GAME OVER -->
+			<div id="game-over-display" class="off-screen">
+				<div id="score">
+					<div class="game-over-text">Current</div>
+					<div id="current-score" class="game-over-numbers"></div>
+					<div class="game-over-text">Best</div>
+					<div id="high-score" class="game-over-numbers"></div>
+				</div>
+				<div id="buttonDiv">
+					<button id="play-again" class="btns"></button> 
+					<button id="share" class="btns"></button> 
+					<button id="highscore" class="btns"></button> 
+				</div>
+	        </div>
+
+        </div>
+	</body>
+	<script type="text/javascript" src="math.js"></script>
+</html>
